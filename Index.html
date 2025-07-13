@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malla Interactiva</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Educación Diferencial</h1>
+  <div class="malla">
+
+    <!-- Ejemplo de semestre -->
+    <div class="semestre" id="semestre1">
+      <h2>1er Semestre</h2>
+      <div class="ramos">
+        <button class="ramo" data-id="accesibilidad">Fundamentos de la Accesibilidad e Inclusión Social</button>
+        <button class="ramo" data-id="aprendizaje">Ciencia del Aprendizaje</button>
+        <button class="ramo" data-id="antropologia">Antropología</button>
+        <button class="ramo" data-id="lectura">Lectura y Escritura Académica</button>
+        <button class="ramo" data-id="aula-especial">Aproximación al Aula: Escuela Especial</button>
+      </div>
+    </div>
+
+    <!-- Puedes seguir copiando la estructura de arriba para cada semestre con su id diferente -->
+
+    <div class="semestre" id="semestre2">
+      <h2>2do Semestre</h2>
+      <div class="ramos">
+        <button class="ramo" data-id="neurobiologia" data-requiere="accesibilidad">Neurobiología para la Educación Especial</button>
+        <button class="ramo" data-id="desarrollo-socio">Desarrollo Socioemocional</button>
+        <button class="ramo" data-id="etica">Ética</button>
+        <button class="ramo" data-id="matematicas">Taller de Habilidades Matemáticas</button>
+        <button class="ramo" data-id="aula-inicial" data-requiere="aula-especial">Aproximación al Aula: Educación Inicial</button>
+      </div>
+    </div>
+
+    <!-- Continúa con los demás semestres aquí... -->
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html><h1>Malla Interactiva - Educación Diferencial</h1>
+<div class="malla">
+
+<!-- INICIO SEMESTRES GENERADOS -->
+<div class="semestre">
+  <h2>1er Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="accesibilidad">Fundamentos de la Accesibilidad e Inclusión Social</button>
+    <button class="ramo" data-id="aprendizaje">Ciencia del Aprendizaje</button>
+    <button class="ramo" data-id="antropologia">Antropología</button>
+    <button class="ramo" data-id="lectura">Lectura y Escritura Académica</button>
+    <button class="ramo" data-id="aula-especial">Aproximación al Aula: Escuela Especial</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>2do Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="neurobiologia" data-requiere="accesibilidad">Neurobiología para la Educación Especial</button>
+    <button class="ramo" data-id="desarrollo-socio">Desarrollo Socioemocional</button>
+    <button class="ramo" data-id="etica">Ética</button>
+    <button class="ramo" data-id="matematicas">Taller de Habilidades Matemáticas</button>
+    <button class="ramo" data-id="aula-inicial" data-requiere="aula-especial">Aproximación al Aula: Educación Inicial</button>
+  </div>
+</div>
+
+--><div class="semestre">
+  <h2>3er Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="evaluacion-psicomodelo" data-requiere="neurobiologia">Evaluación Psicopedagógica desde el Modelo Multidimensional</button>
+    <button class="ramo" data-id="desarrollo-comunicativo">Desarrollo Comunicativo</button>
+    <button class="ramo" data-id="planificacion">Planificación para el Aprendizaje</button>
+    <button class="ramo" data-id="persona-sociedad">Persona y Sociedad</button>
+    <button class="ramo" data-id="empleabilidad">Gestión para la Empleabilidad</button>
+    <button class="ramo" data-id="identidad-docente">Taller de Identidad Docente</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>4to Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="diversificacion" data-requiere="planificacion">Diversificación de la Enseñanza</button>
+    <button class="ramo" data-id="lenguaje" data-requiere="desarrollo-comunicativo">Intervención del Lenguaje y Habla</button>
+    <button class="ramo" data-id="evaluacion-retro" data-requiere="evaluacion-psicomodelo">Evaluación y Retroalimentación para el Aprendizaje</button>
+    <button class="ramo" data-id="gestion-personal">Gestión Personal y Habilidades para la Vida</button>
+    <button class="ramo" data-id="autoconocimiento" data-requiere="identidad-docente">Autoconocimiento para Liderar Procesos Educativos</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>5to Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="trastornos-neurodesarrollo" data-requiere="neurobiologia">Intervención Psicopedagógica de los Trastornos del Neurodesarrollo</button>
+    <button class="ramo" data-id="accesibilidad-inicial" data-requiere="diversificacion">Accesibilidad Curricular para la Enseñanza de Educación Inicial</button>
+    <button class="ramo" data-id="convivencia" data-requiere="etica">Convivencia Escolar y Comunidad Educativa</button>
+    <button class="ramo" data-id="gestion-personal-2" data-requiere="gestion-personal">Gestión Personal y Habilidades para la Vida</button>
+    <button class="ramo" data-id="liderazgo-aula" data-requiere="autoconocimiento">Liderazgo para la Gestión de Aula</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>6to Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="evaluacion-instrumental" data-requiere="evaluacion-retro">Evaluación Psicopedagógica de los Aprendizajes Instrumentales</button>
+    <button class="ramo" data-id="accesibilidad-basica" data-requiere="accesibilidad-inicial">Accesibilidad Curricular para la Enseñanza de Educación Básica</button>
+    <button class="ramo" data-id="lengua-braille">Lengua de Señas y Braille</button>
+    <button class="ramo" data-id="motivacion" data-requiere="desarrollo-socio">Motivación y Autorregulación</button>
+    <button class="ramo" data-id="optativo1">Optativo I de Formación Integral</button>
+    <button class="ramo" data-id="investigacion" data-requiere="evaluacion-retro">Metodología de la Investigación en Educación</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>7mo Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="intervencion-neet" data-requiere="trastornos-neurodesarrollo">Intervención Psicopedagógica para las Necesidades Educativas Especiales Transitorias</button>
+    <button class="ramo" data-id="accesibilidad-media" data-requiere="accesibilidad-basica">Accesibilidad Curricular para la Enseñanza de Educación Media</button>
+    <button class="ramo" data-id="actividad-fisica">Actividad Física Inclusiva</button>
+    <button class="ramo" data-id="grado" data-requiere="investigacion">Taller de Grado</button>
+    <button class="ramo" data-id="optativo2">Optativo de Profundización I</button>
+    <button class="ramo" data-id="practica-basica" data-requiere="evaluacion-instrumental">Práctica de Intervención Focalizada: Proyecto de Integración Escolar en Educación Básica</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>8vo Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="tecnologias" data-requiere="grado">Tecnologías para la Enseñanza</button>
+    <button class="ramo" data-id="inclusion-laboral" data-requiere="actividad-fisica">Inclusión Laboral</button>
+    <button class="ramo" data-id="atencion-temprana" data-requiere="intervencion-neet">Atención Temprana</button>
+    <button class="ramo" data-id="optativo3" data-requiere="optativo2">Optativo de Profundización II</button>
+    <button class="ramo" data-id="optativo4" data-requiere="optativo1">Electivo II de Formación Integral</button>
+    <button class="ramo" data-id="practica-integracion" data-requiere="practica-basica">Práctica de Intervención Focalizada: Proyecto de Integración Escolar</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>9no Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="intervencion-sensorial" data-requiere="intervencion-neet">Intervención Psicopedagógica en Discapacidad Sensorial y Múltiple</button>
+    <button class="ramo" data-id="neurociencias" data-requiere="tecnologias">Neurociencias Cognitivas</button>
+    <button class="ramo" data-id="psicologia-adultez" data-requiere="persona-sociedad">Psicología de la Adultez</button>
+    <button class="ramo" data-id="optativo5" data-requiere="optativo3">Optativo de Profundización III</button>
+    <button class="ramo" data-id="optativo6" data-requiere="optativo4">Electivo III de Formación Integral</button>
+    <button class="ramo" data-id="practica-media" data-requiere="practica-integracion">Práctica de Intervención Focalizada: Proyecto de Integración Escolar en Educación Media</button>
+    <button class="ramo" data-id="practica-especial" data-requiere="practica-integracion">Práctica de Intervención Focalizada en Escuela Especial</button>
+  </div>
+</div>
+
+<div class="semestre">
+  <h2>10mo Semestre</h2>
+  <div class="ramos">
+    <button class="ramo" data-id="hito" data-requiere="grado">Hito Evaluativo Integrativo Interprofesional</button>
+    <button class="ramo" data-id="afianzamiento" data-requiere="liderazgo-aula">Afianzamiento de Saberes Profesionales</button>
+    <button class="ramo" data-id="practica-profesional-1" data-requiere="practica-media">Práctica Profesional I</button>
+    <button class="ramo" data-id="practica-profesional-2" data-requiere="practica-especial">Práctica Profesional II</button>
+    <button class="ramo" data-id="gestion-final" data-requiere="gestion-personal-2">Gestión de Carrera y Desarrollo Profesional</button>
+  </div>
+</div>
+
+</div> <!-- cierre .malla -->
